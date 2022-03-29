@@ -67,7 +67,11 @@ namespace BBDNRESTDemoCSharp
 
             Operations operations = setOperations(crud);
 
-            String apis = args[0];
+       
+           
+                String apis = args[0];
+           
+           
 
             try
             {
@@ -104,6 +108,7 @@ namespace BBDNRESTDemoCSharp
                 case ("--course"):
                 case ("-c"):
                     result = await doCourse(operations);
+                    Console.WriteLine("Result " + result);
                     break;
                 case ("--user"):
                 case ("-u"):

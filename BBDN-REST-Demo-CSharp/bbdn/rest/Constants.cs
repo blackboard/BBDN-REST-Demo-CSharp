@@ -4,9 +4,9 @@ namespace BBDNRESTDemoCSharp
 {
 	public class Constants
 	{
-		public static string HOSTNAME = "https://<your learn domain>";
-		public static string KEY = "<insert your key>"; 
-		public static string SECRET = "<insert your secret>";
+		public static string HOSTNAME = "https://bbappsandbox.waukesha.k12.wi.us:8443";
+		public static string KEY = "def56926-ee64-491a-87b3-2e29ae32a788"; 
+		public static string SECRET = "4I18Z6KDtMcmfxVTwEtkUXdaf4tSr33l";
 
 		public static string AUTH_PATH = "/learn/api/public/v1/oauth2/token";
 
@@ -20,7 +20,7 @@ namespace BBDNRESTDemoCSharp
 		public static string TERM_RAW = "Term Used For REST Demo - CSharp";
 		public static string TERM_DISPLAY = "Term Used For REST Demo - CSharp";
 
-		public static string COURSE_PATH = "/learn/api/public/v1/courses";
+		public static string COURSE_PATH = "/learn/api/public/v2/courses";
 		public static string COURSE_ID = "BBDN-CSharp-REST-Demo";
 		public static string COURSE_NAME = "Course Used For REST Demo - CSharp";
 		public static string COURSE_DESCRIPTION = "Course Used For REST Demo - CSharp";

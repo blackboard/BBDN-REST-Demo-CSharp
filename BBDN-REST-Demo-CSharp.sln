@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBDN-REST-Demo-CSharp", "BBDN-REST-Demo-CSharp\BBDN-REST-Demo-CSharp.csproj", "{065A0691-01EB-4481-B6E1-F2033F2D9DEE}"
 EndProject
 Global
@@ -13,5 +15,11 @@ Global
 		{065A0691-01EB-4481-B6E1-F2033F2D9DEE}.Debug|x86.Build.0 = Debug|x86
 		{065A0691-01EB-4481-B6E1-F2033F2D9DEE}.Release|x86.ActiveCfg = Release|x86
 		{065A0691-01EB-4481-B6E1-F2033F2D9DEE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {897F6E0C-9D3B-40AA-BC99-16E7FEC2C63A}
 	EndGlobalSection
 EndGlobal

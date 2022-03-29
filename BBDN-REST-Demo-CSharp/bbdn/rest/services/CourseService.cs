@@ -32,17 +32,21 @@ namespace BBDNRESTDemoCSharp
             try
             {
                 var json = JsonConvert.SerializeObject(newCourse);
+                Debug.WriteLine(json);
                 var body = new StringContent(json, Encoding.UTF8, "application/json");
 
                 HttpResponseMessage response = await client.PostAsync(uri, body);
-
+                
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
                     course = JsonConvert.DeserializeObject<Course>(content);
                     Debug.WriteLine(@"				Course successfully created.");
                 }
-
+                else
+                {
+                    Debug.WriteLine(response);
+                }
             }
             catch (Exception ex)
             {
